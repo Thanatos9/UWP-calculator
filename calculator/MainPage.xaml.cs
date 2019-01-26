@@ -22,11 +22,11 @@ namespace calculator
     /// </summary>
     public sealed partial class MainPage : Page
     {
-        string currentNum1;
-        string currentNum2;
-        bool noOperation = true;
-        char op;
-        double result = 0;
+        private string currentNum1;
+        private string currentNum2;
+        private bool noOperation = true;
+        private char op;
+        private double result = 0;
 
         public MainPage()
         {
